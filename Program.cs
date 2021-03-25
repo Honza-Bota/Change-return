@@ -56,7 +56,7 @@ namespace Change_return
                 Console.WriteLine("-----------------------------------------------------");
                 Console.WriteLine("Pokud chceš skončit, stiskni 'k', jinak jedeme znovu.");
                 cki = Console.ReadKey();
-                Console.WriteLine("-----------------------------------------------------");
+                Console.WriteLine("\n-----------------------------------------------------");
 
 
             } while (cki.Key != ConsoleKey.K);
